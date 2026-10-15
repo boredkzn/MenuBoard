@@ -9,7 +9,7 @@
 | **Студент / Author** | Ксения Суханова |
 | **Дисциплина** | Методы искусственного интеллекта · ДЗ5 |
 | **База ДЗ4** | MenuBoard (mock-меню) → расширено до live CRUD |
-| **Репозиторий** | локально `~/RiderProjects/MenuBoard/` (push — по инструкции ниже) |
+| **Репозиторий** | https://github.com/boredkzn/MenuBoard |
 
 ## Стек / Stack
 
@@ -137,14 +137,13 @@ MenuBoard/
 
 ## Git / GitHub
 
+Репозиторий: **https://github.com/boredkzn/MenuBoard** (`main`).
+
 ```bash
 cd ~/RiderProjects/MenuBoard
-git init   # если ещё нет
-git add .
-git commit -m "MenuBoard DZ5: Supabase CRUD, auth, tests, docs"
-# при наличии gh auth:
-gh repo create boredkzn/MenuBoard --private --source=. --remote=origin --push
-# или: создать репозиторий вручную и git remote add origin … && git push -u origin main
+git pull origin main
+# после правок:
+git add . && git commit -m "…" && git push
 ```
 
 ## Сдача ДЗ5
